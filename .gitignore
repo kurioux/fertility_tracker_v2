@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pkl
+*.joblib
+.DS_Store
+Thumbs.db
+.streamlit/
+.env
+venv/
+.vscode/
+prediction_log.csv
