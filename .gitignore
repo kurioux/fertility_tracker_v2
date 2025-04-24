@@ -1,7 +1,7 @@
 __pycache__/
 *.py[cod]
 *.pyo
-*.pkl
+# *.pkl    
 *.joblib
 .DS_Store
 Thumbs.db
