@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+streamlit 
+pandas 
+numpy 
+scikit-learn 
+joblib 
+=======
+streamlit 
+pandas 
+numpy 
+scikit-learn 
+joblib 
+>>>>>>> 2452ce1 (Added requirements.txt)
