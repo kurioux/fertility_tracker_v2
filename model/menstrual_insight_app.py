@@ -23,11 +23,29 @@ st.set_page_config(page_title="Experimental Menstrual Advisor", page_icon="🧬"
 st.title("🔍 Menstrual Cycle Insight Advisor (Experimental)")
 
 # --- About Section ---
-with st.expander("ℹ️ About This App"):
+with st.expander("ℹ️ About"):
     st.markdown("""
-    This experimental module predicts your current menstrual phase and attempts to estimate the exact day in your cycle based on your sensor data and personal inputs. 
-    It provides tailored psychological and wellbeing advice to help you make sense of your cycle.
-    """)
+    This app uses sensor readings to predict your current menstrual cycle phase using machine learning.
+
+    ### 🌀 Phases Overview:
+
+    - **Follicular Phase**: Begins on the first day of your period. Hormones start rising.  
+      🟣 *Basal temperature* is usually lower (~36.4°C).  
+      ❤️ *BPM* and *SPO2* tend to be stable.
+
+    - **Ovulation**: A sharp rise in LH hormone occurs.  
+      🔺 *Basal body temperature* rises slightly (~36.6–37.0°C).
+
+    - **Luteal Phase**: Hormones stay high preparing for pregnancy.  
+      🧪 *Body temperature* stays higher (~36.8°C+).  
+      ❤️ *BPM* may increase slightly.
+
+    - **Menstruation**: Hormone levels drop.  
+      ❄️ *Temperature* and *BPM* gradually decrease.
+
+    **Note:** This app can give insight—but isn’t a replacement for medical advice.
+    """, unsafe_allow_html=True)
+
 
 # --- Input Section ---
 st.subheader("📥 Sensor Data & Date")
