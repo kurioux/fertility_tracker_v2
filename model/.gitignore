@@ -1,8 +1,15 @@
 __pycache__/
 *.py[cod]
 *.pyo
+# Ignore all .pkl and .joblib files by default
 *.pkl
 *.joblib
+
+# --- EXCEPTIONS (these will be tracked) ---
+!model/scaler.pkl
+!model/kmeans_model.pkl
+!model/fertility_cluster_mapper.pkl
+
 .DS_Store
 Thumbs.db
 .streamlit/
